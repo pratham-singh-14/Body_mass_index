@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Body Mass Index"
+    android:textSize="20sp"
+    android:layout_marginTop="10dp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-black"
+    android:textColor="#F516144E"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Develope by:-"
+    android:textSize="20sp"
+    android:layout_marginTop="15dp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-black"
+    android:textColor="#F5284E14"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pratham singh"
+    android:textSize="12sp"
+    android:layout_marginTop="2dp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-black"
+    android:textColor="#F516144E"/>
+
+
+</LinearLayout>
